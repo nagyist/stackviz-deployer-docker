@@ -1,0 +1,6 @@
+[submodule "stackviz"]
+	path = stackviz
+	url = https://github.com/openstack/stackviz
+[submodule "stackviz-deployer"]
+	path = stackviz-deployer
+	url = https://github.com/timothyb89/stackviz-deployer
