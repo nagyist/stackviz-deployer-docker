@@ -23,7 +23,7 @@ You'll need MySQL and Redis containers to link:
         -e MYSQL_ROOT_PASSWORD=password \
         -e MYSQL_USER=stackviz \
         -e MYSQL_PASSWORD=stackviz \
-        -e MYSQL_DATABASE=stackviz
+        -e MYSQL_DATABASE=stackviz \
         mysql
 
     docker run --name stackviz-redis -d redis
