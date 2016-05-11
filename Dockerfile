@@ -1,7 +1,7 @@
 FROM ubuntu:14.04
 
 RUN apt-get update
-RUN apt-get install -y python python-dev python-pip supervisor nginx git
+RUN apt-get install -y python python-dev python-pip python-lxml supervisor nginx git
 RUN pip install uwsgi
 
 WORKDIR /home/docker
